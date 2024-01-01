@@ -1,13 +1,8 @@
-name = "bits"
-#main = "test/worker/cf-cdn-cgi-trace2.js"
-#main = "test/worker/worker-connect-test.js"
+name = "main"
 main = "_worker.js"
-compatibility_date = "2023-12-12"
+compatibility_date = "2024-01-01"
 
 [vars]
-UUID = "29686182-028d-4c62-a922-04ba7bf159ad"
-PROXYIP = "101.32.239.42"
+UUID = "d1eaeb7e-c08f-4898-880e-411ac3e65dd3"
+PROXYIP = "98.98.119.110"
 DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
-# NODE_ID = "1"
-# API_TOKEN = "example_dev_token"
-# API_HOST = "api.v2board.com"
