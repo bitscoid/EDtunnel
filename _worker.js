@@ -2,7 +2,9 @@ import { connect } from 'cloudflare:sockets';
 
 let userID = 'd1eaeb7e-c08f-4898-880e-411ac3e65dd3';
 
-let proxyIP = ['98.98.119.110'];
+const proxyIPs = ['98.98.119.110'];
+
+let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://cloudflare-dns.com/dns-query'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
