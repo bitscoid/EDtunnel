@@ -1,11 +1,5 @@
-// <!--GAMFC-->version base on commit c17ceb86be8e16c53fcfdf4b7dcd09e9e372863b, time is 2023-06-05 18:02:59 UTC<!--GAMFC-END-->.
-// @ts-ignore
 import { connect } from 'cloudflare:sockets';
-
-// How to generate your own UUID:
-// [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'abb9883e-93de-4197-b4b3-68ad30419c7b';
-
 let proxyIP = "64.68.192." + Math.floor(Math.random() * 255);
 
 if (!isValidUUID(userID)) {
@@ -599,4 +593,3 @@ clash-meta
 ################################################################
 `;
 }
-
