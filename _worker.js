@@ -715,8 +715,7 @@ function getVLESSConfig(userIDs, hostName) {
         <label for="details-link" class="form-label fw-bold">
           Vless Details
         </label>
-        <pre>
-        	<code>
+        <pre><code>
 - type: vless
   name: BITS Vless
   server: ${hostName} // Bug CDN
@@ -731,8 +730,7 @@ function getVLESSConfig(userIDs, hostName) {
     path: "/"
     headers:
       host: ${hostName} // Bug SNI SSL
-			</code>
-		</pre>
+		</code></pre>
       </div>
     </body>
 </html>`;
