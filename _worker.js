@@ -710,6 +710,30 @@ function getVLESSConfig(userIDs, hostName) {
           <input type="text" class="form-control" id="clash-link" readonly value="${vlessClash}">
         </div>
       </div>
+
+      <div class="form-group col-md-6 mx-auto px-4 pb-3">
+        <label for="details-link" class="form-label fw-bold">
+          Vless Details
+        </label>
+        <pre>
+        	<code>
+- type: vless
+  name: BITS Vless
+  server: ${hostName} // Bug CDN
+  port: 443
+  uuid: ${userIDs}
+  network: ws
+  tls: true
+  udp: false
+  sni: ${hostName} // Bug SNI SSL
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/"
+    headers:
+      host: ${hostName} // Bug SNI SSL
+			</code>
+		</pre>
+      </div>
     </body>
 </html>`;
 }
