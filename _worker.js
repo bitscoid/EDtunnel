@@ -718,21 +718,21 @@ function getVLESSConfig(userIDs, hostName) {
         <pre><code>
 - name: BITS Vless
   type: vless
-  server: ${hostName} // Bug CDN
+  server: ${hostName}
   port: 443
   uuid: ${userIDs}
   alterId: 0
   cipher: auto
-  udp: false // Not Support
+  udp: false
   tls: true
   skip-cert-verify: true
-  servername: ${hostName} // Bug SNI SSL
+  servername: ${hostName}
   network: ws
   client-fingerprint: chrome
   ws-opts:
     path: "/"
     headers:
-      Host: ${hostName} // Bug SNI SSL
+      Host: ${hostName}
 		</code></pre>
       </div>
     </body>
