@@ -675,7 +675,7 @@ function getVLESSConfig(userIDs, hostName) {
         </div>
       </div>
 
-      <div class="form-group col-md-6 mx-auto px-4 py-3">
+      <div class="form-group col-md-6 mx-auto px-4 pb-3">
         <label for="vless-link" class="form-label fw-bold">
           Link Vless
         </label>
@@ -687,7 +687,7 @@ function getVLESSConfig(userIDs, hostName) {
         </div>
       </div>
 
-      <div class="form-group col-md-6 mx-auto px-4 py-2">
+      <div class="form-group col-md-6 mx-auto px-4 pb-3">
         <label for="sub-link" class="form-label fw-bold">
           Link Subs v2rayN, v2rayNG, v2rayA, Matsuri, Nekobox & Nekoray
         </label>
@@ -699,7 +699,7 @@ function getVLESSConfig(userIDs, hostName) {
         </div>
       </div>
 
-      <div class="form-group col-md-6 mx-auto px-4 py-3">
+      <div class="form-group col-md-6 mx-auto px-4 pb-3">
         <label for="clash-link" class="form-label fw-bold">
           Link Subs Clash, ClashX & ClashMeta
         </label>
